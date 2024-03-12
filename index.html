@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ToDo</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="todo-wrapper">
+			<div class="todo-container">
+				<div class="input-container">
+					<input
+						class="input-container__input-label"
+						type="text"
+						id="input-label"
+						placeholder="Enter item here..."
+						required />
+					<button class="input-container__add-btn" onclick="addItem()">
+						<img
+							class="input-container__add-btn-icon"
+							src="img/plus.svg"
+							alt="addItemIcon" />
+					</button>
+				</div>
+				<div class="todo-items-container" id="output-label"></div>
+			</div>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
